@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Naruto Presentation</title>
+        <link href="https://db.onlinewebfonts.com/c/73fedd912ba11f583a359ce4c2e742ed?family=Ninja+Naruto" rel="stylesheet" type="text/css"/>
+        <link href="./naruto.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+
+                $.getJSON('cv-naruto.json', function(data) {
+
+                    document.getElementById("description").innerHTML = "<td>" + "<b>" + "NOM:" + "</b>" +  "</td>" + "<td>" + data.Nom + "</td>" + "<td>" + "<b>" + "ÂGE:" + "</b>" + "</td>" + "<td>" + data.Age + "</td>";    
+                    document.getElementById("origines").innerHTML = "<td>" + "<b>" + "CLAN:" + "</b>" + "</td>" + "<td>" + data.Clan + "</td>" + "<td>" + "<b>" + "VILLAGE:" + "</b>" + "</td>" + "<td>" + data.Village + "</td>";
+                    document.getElementById("emploi").innerHTML = "<td>" + "<b>" + "MÉTIER:" + "</b>" + "</td>" + "<td>" + data.Metier + "</td>" + "<td>" + "<b>" + "POSTE:" + "</b>" + "</td>" + "<td>" + data.Poste + "</td>";
+                    document.getElementById("famille").innerHTML = "<td>" + "<b>" + "ÉPOUSE:" + "</b>" + "</td>" + "<td>" + data.Epouse + "</td>" + "<td>" + "<b>" + "ENFANTS:" + "</b>" + "</td>" + "<td>" + data.Enfants + "</td>";
+                    document.getElementById("exploit").innerHTML =  "<td>" + "<b>" + "EXPLOIT:" + "</b>" + "</td>" + "<td>" + data.Exploit + "</td>";
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="menu-header">
+            <h1>NARUTO</h1>
+            <div>                    
+                <a class="header-a" href="naruto1.html" style="color:#1e73be">LES PREMICES D'UN HEROS</a>
+                <a class="header-a" href="naruto2.html">UN COMBAT POUR LA PAIX</a>
+                <a class="header-a" href="naruto3.html">CONTACTEZ NOTRE HOKAGE</a>
+            </div>
+            <img class="img-naruto1" src="Colorful-Anime-Naruto-clipart.png" alt="">
+        </div>
+        <div class="contenu">
+            <div class="infos">
+                <h2>INFORMATIONS PERSONNELLES</h2>
+                <table class="cv">
+                    <tr id="description"></tr>
+                    <tr id="origines"></tr>
+                    <tr id="emploi"></tr>
+                    <tr id="famille"></tr>
+                    <tr id="exploit"></tr>
+                </table>
+            </div>
+            <div class="presentation">
+                <h2>PRESENTATION</h2>
+                <div class="img-pres">
+                    <img src="d.php.jpg" alt="">
+                </div>
+                <div class="text-pres">
+                    <p>
+                        <strong style="color:red">Naruto Uzumaki</strong> est un ninja du village de Konoha. 
+                        Il est le principal protagoniste du manga Naruto de
+                        Masashi Kishimoto.
+                    </p>
+                    <p>
+                        Il apparaît pour la première fois âgé de 12 ans. 
+                        À l'époque, il mène une réputation de cancre, rejeté 
+                        à la fois par ses camarades de classe et par les 
+                        villageois qui le craignent car il est l’hôte du Démon 
+                        renard à neuf queues. Naruto s’est retrouvé orphelin 
+                        peu de temps après sa naissance, alors que ses parents 
+                        tentaient de sceller le Démon renard dans son corps pour 
+                        protéger le village, mais aussi parce qu’ils avaient 
+                        l’intime conviction qu’il était l’enfant de la prophétie.
+                    </p>
+                </div>
+            </div>
+            <div class="education">
+                <h2>EDUCACTION</h2>
+                <div class="text-pres">
+                    <p>
+                        Ce jeune ninja fut ainsi élevé et soutenu par quelques membres 
+                        importants de son village tels que l’Hokage 3ème du nom ou encore 
+                        son professeur Iruka qui fut le premier à le sortir de la solitude 
+                        et le soutenir dans son ambition de devenir un jour Hokage. C'est avec
+                        l'Équipe 7 (composée de Sasuke, Sakura et Kakashi-sensei) que Naruto
+                        fait ses premiers pas dans le monde ninja et c'est avec cette même équipe qu'il 
+                        créera des liens d'amitié très forts. Cela marque le début d'une grande rivalité 
+                        entre Sasuke et Naruto, un rivalité qui se partage entre jalousie et admiration... 
+                    </p>
+                </div>
+                <div class="img-pres">
+                    <img src="2869811045_9ea96f7a64.jpg" alt="">
+                </div>
+                <br>
+                <div class="img-pres">
+                    <img width="500" src="3453839976_9e693f3ea2_c.jpg" alt="">
+                </div>
+                <div class="text-pres">
+                    <p>
+                        À l'origine, son rêve de devenir Hokage est une façon pour Naruto d’obtenir 
+                        la reconnaissance et le respect des villageois qui le méprisent. Cependant, 
+                        c’est en grandissant que Naruto saura se démarquer par son courage et sa détermination 
+                        à toutes épreuves. Progressivement, il finra par s'entourer des meilleurs ninjas. Il aura d'ailleurs plusieurs sensei dont 
+                        l'hermite Jiraya qui sera un guide crucial pour la réalisation de la prophétie. C’est ainsi qu'il réussira, 
+                        avec l’aide de ses amis, à apporter la paix au monde des ninjas et par la même occasion, réaliser son rêve.
+                    </p>
+                </div>
+            </div>
+            <div class="button-suivant">
+                <a href="./naruto2.html">
+                    <img src="Akatsuki-clouds.svg-3.jpg" alt="" width="175" style="opacity:0.75"/>
+                    <span class="pos-suiv" >Suivant</span>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

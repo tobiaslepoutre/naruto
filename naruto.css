@@ -1,0 +1,241 @@
+body{
+    background-image:
+    url("./naruto-5752318_1280.png");
+    background-color:black;
+    background-position-x: center;
+    background-position-y: -330px;
+    background-repeat: no-repeat;
+}
+
+.menu-header{
+    text-align: center;
+}
+
+@import url(//db.onlinewebfonts.com/c/73fedd912ba11f583a359ce4c2e742ed?family=Ninja+Naruto);
+@font-face {font-family: "Ninja Naruto"; 
+    src: url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.eot"); 
+    src: url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.eot?#iefix") 
+    format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.woff2")
+    format("woff2"), 
+    url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.woff")
+    format("woff"), 
+    url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.ttf")
+    format("truetype"), 
+    url("//db.onlinewebfonts.com/t/73fedd912ba11f583a359ce4c2e742ed.svg#Ninja Naruto")
+    format("svg"); 
+}
+
+.header-a{
+    display: inline-block;
+    color: #e08040;
+    font-size: 20px;
+    height: max-content;
+    text-decoration: none;
+    margin:0 50px 5px 50px;
+    letter-spacing: 2px;
+    font-family: Ninja Naruto;
+}
+
+.header-a:hover{
+    opacity: 0.8;
+}
+
+h1{
+    margin-top: 15px;
+    font-family: Ninja Naruto;
+    font-size: 60px;
+    letter-spacing: -1px;
+    color: white;
+    height: 35px;
+}
+
+.img-naruto1{
+    margin: 5px 125px 0px 0px;
+    height: 200px;
+}
+
+.img-naruto2{
+    margin: 5px 0px 0px 0px;
+    height: 200px;
+}
+
+.img-naruto3{
+    margin: 5px 0px 0px 0px;
+    height: 200px;
+}
+
+.contenu{
+    text-align: center;
+}
+
+.infos{
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    font-family: Ninja Naruto;
+    color: #f0a040;
+}
+
+.cv{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td{
+    text-align: left;
+    width: 16ch;
+}
+
+b{
+    color: #e08040;
+    padding-left: 4ch;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+tr{
+    text-align: center;
+    line-height: 3em;
+    font-family: monospace;
+    color:white;
+    font-size: 22px;
+}
+
+.presentation{
+    text-align: center;
+}
+
+.img-pres{
+    display: inline-block;
+    text-align: center;
+    margin:20px;
+}
+
+.img-kunai{
+    display: inline-block;
+    text-align: center;
+}
+
+.text-pres{
+    display: inline-block;
+    width: 550px;
+    color: white;
+    line-height: 1.5em;
+    margin:20px;
+    vertical-align: top;
+}
+
+p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.education{
+    text-align: center;
+}
+
+.popularite{
+    text-align: center;
+    min-width: max-content;
+}
+
+.contactez-nous{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.formulaire{
+    color: #e08040;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+.label-nom{
+    margin-right: 3ch;
+    margin-left: -90px;
+}
+
+.label-email{
+    margin-right: 1ch;
+    margin-left: -90px;
+}
+
+.input-nom{
+    font-size: 20px;
+    width: max-content;
+}
+
+.input-email{
+    font-size: 20px;
+}
+
+.input-text{
+    width: 405px;
+    height: 150px;
+    font-size: 16px;
+}
+
+.checkbox1{
+    display: block;
+    font-family: monospace;
+    font-size: 17px;
+
+}
+
+.btn{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: transparent;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.75;
+}
+
+.button-suivant{
+   
+    float:right;
+    width:40%;
+}
+
+.button-precedent{
+   
+    float:left;
+    width:40%;
+}
+
+.pos-suiv{
+    position: absolute;
+    margin: 57px 0 0 -125px;
+    color: white;
+    font-family: Ninja Naruto;
+    font-size: 20px;
+}
+
+.pos-prec{
+    position: absolute;
+    margin: 57px 0 0 -148px;
+    color: white;
+    font-family: Ninja Naruto;
+    font-size: 20px;
+}
+
+.button-precedent:hover{
+    opacity: 0.8;
+}
+
+.button-suivant:hover{
+    opacity: 0.8;
+}
